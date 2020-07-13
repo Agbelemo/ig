@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #F6F6F6;
+    height: 8vw;
+}
+
+.upheader{
+    padding-top: 10px;
+    padding-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upheader a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.upheader span{
+    font-size: 12px;
+}
+
+.mainHeader{
+    padding-left: 10%;
+    margin-top: 2px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    
+}
+
+.showcaseRollOne{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.img{
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-2-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img:nth-child(2){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-3-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img:nth-child(3){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-4-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img:nth-child(4){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-5-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.showcaseRollTwo{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.pic:nth-child(1){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-6-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic:nth-child(2){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-7-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic:nth-child(3){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-8-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic:nth-child(4){
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/shop-single-img-9-600x659.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.showcaseRollThree{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.pix{
+    width: 19vw;
+    height: 22vw;
+    background: url('./assest/h-1-list-product-7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
